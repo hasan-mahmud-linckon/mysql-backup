@@ -46,7 +46,7 @@ Many processes are waiting for CPU time.
 
 From `top`:
 
-```table
+```
 PID   CPU%   MEMORY   COMMAND
 10297 302%   2.3GB    g++-14ssh
 9885   43%   137MB    php-fpm
