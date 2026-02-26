@@ -24,9 +24,7 @@ This document explains the **root cause**, **choking point**, and **technical an
 ## 1. High Load Average
 
 ```
-
 Load Average: 7.74, 7.75, 7.53
-
 ```
 
 ### Interpretation
@@ -48,8 +46,7 @@ Many processes are waiting for CPU time.
 
 From `top`:
 
-```
-
+```table
 PID   CPU%   MEMORY   COMMAND
 10297 302%   2.3GB    g++-14ssh
 9885   43%   137MB    php-fpm
@@ -165,12 +162,10 @@ Effects:
 # 💾 Memory Analysis
 
 ```
-
 Total RAM: 8GB
 Used: 3.6GB
 Available: 4.2GB
 Swap: None
-
 ```
 
 Conclusion:
