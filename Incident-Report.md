@@ -1,4 +1,4 @@
-```markdown
+
 # 🚨 High CPU Usage Incident Report — Production Dockerized Laravel Server
 
 ## 📌 Overview
@@ -45,13 +45,11 @@ Many processes are waiting for CPU time.
 ## 2. CPU Usage Snapshot
 
 From `top`:
-
 ```
 PID   CPU%   MEMORY   COMMAND
 10297 302%   2.3GB    g++-14ssh
 9885   43%   137MB    php-fpm
 2175    0.6% 515MB    mysqld
-
 ```
 
 ---
